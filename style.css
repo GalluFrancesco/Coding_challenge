@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.background{
+  background-image: url("background.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding-top: 2%;
+}
+
+.boxNera{
+  width: 65vw;
+  height: 90vh;
+  margin: auto;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 1vw;
+}
+
+.boxtesto{
+  width: 85%;
+  height: 90vh;
+  margin: auto;
+
+}
+
+header{
+  text-align: center;
+}
+
+.logo{
+  margin-top: 9vh;
+  width: 24%;
+}
+
+.title{
+  margin-bottom: 0;
+  color: #00dd00;
+  margin: auto;
+  font-size: 1.5vw;
+}
+
+.fontstyle{
+    font-family: "Poppins";
+}
+
+main{
+  height: 70%;
+  margin: auto;
+}
+
+.bloccoVerde{
+  height: 4vh;
+  background-color: #00dd00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  height: 3vh;
+  font-size: 0.8vw;
+  margin: 0.1vw;
+}
+
+input[type=checkbox] {
+    width: 0.8vw;
+    height: 0.8vw;
+    margin-right: 0.3vw;
+}
+
+.generica{
+  height: 20%;
+  margin-top: 1.5vw;
+  font-size: 1.4vw;
+  color: white;
+  line-height: 1.5vw;
+  font-size: 1.4vw;
+}
+
+.generica > p{
+  font-size: 0.8vw;
+  font-weight:lighter;
+}
+
+.Gino > .barraEnergetica{
+  width: 15vw;
+  height: 1.5vw;
+  border-radius: 0.3vw;
+  background-color: orange;
+}
+
+.Mike > .barraEnergetica{
+  width: 30vw;
+  height: 1.5vw;
+  border-radius: 0.3vw;
+  background-color: green;
+}
+
+.Fede > .barraEnergetica{
+  width: 7vw;
+  height: 1.5vw;
+  border-radius: 0.3vw;
+  background-color: red;
+}
